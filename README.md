@@ -27,7 +27,7 @@ Para os usuários que desejam interagir de forma a explorar o mapa pode contar c
 Clone o projeto
 
 ```bash
-  git clone url
+  git clone https://github.com/bezlima/my-maps.git
 ```
 
 Entre na pasta
