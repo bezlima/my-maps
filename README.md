@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# my_map
 
-## Getting Started
+O projeto é uma aplicação web interativa que permite ao usuário ver e interagir com um mapa, tendo como base Open Street Map e React-leaflet.
 
-First, run the development server:
+#### O desenho de polígonos:
+
+O usuário pode desenhar polígonos livremente, adicionando a ele titulo e detalhes.
+
+#### O desenho de marcadores:
+
+O usuário pode desenhar marcadores livremente, adicionando a ele titulo e detalhes.
+
+#### Mostrar ou esconder:
+
+O usuário pode ajustar aquilo que deseja ver no mapa por meio de um menu interativo.
+
+#### Pesquisa:
+
+O usuário por meio do menu pode pesquisar uma localidade de maneira livre, o que fará com que o mapa o direcione até o destino desejado.
+
+#### Temos exemplos:
+
+Para os usuários que desejam interagir de forma a explorar o mapa pode contar com marcadores e polígonos pré cadastrados para observar seu funcionamento.
+
+## Instalação
+
+Clone o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone url
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre na pasta
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd my_map
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Atualize as dependências
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Rodando o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+  ou
+  npm run build
+  npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Melhorias
 
-## Deploy on Vercel
+-   Adicionar: desenhar formas básicas como quadrado e círculos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   Adicionar: salvar localmente de maneira a manter o estado da aplicação durante refresh. Será uma feature com prioridade a ser adicionada. Terei localStore ou redux como base para realiza-lo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-   Adicionar: sing in e login. além de manter pontos e polígonos salvos por usuário, ou um mapa publico para usuário marcarem e compartilharem localidades de seu interesse. Terei como base o firebase para tal aplicação.
+
+## Autor : Lucas Lima
+
+#### Acompanhe em:
+
+git - [@bezlima](https://github.com/bezlima)
+
+linkedIn - [@bezlima](https://www.linkedin.com/in/bezlima/)
+
+## Stack utilizada
+
+**Front-end:** ReactJs, NextJs, Typescript, TailwindCSS, React-leaflet, react-leaflet-cluster, Open-Street-Mapa, axios, Phosphor-icons e react-draggable

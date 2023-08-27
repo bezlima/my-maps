@@ -1,0 +1,64 @@
+[
+    {
+        "id": 0,
+        "title": "Jardim Botânico de curitiba",
+        "description": "          O Jardim Botânico é um dos maiores cartões postais de Curitiba e o ponto turístico mais visitado da cidade. Sua principal atração, a estufa de 458 m2, abriga exemplares vegetais naturais e ornamentais da flora da Mata Atlântica, que cobre a Serra do Mar e a planície litorânea do Paraná. A construção de ferro e 3.800 peças de vidro, em espaço aberto, impressiona as levas anuais de turistas, desde a sua chegada pelos portões principais, da Rua Engº Ostoja Reguski.",
+        "coordinates": [
+            { "lat": -25.439438001148027, "lng": -49.23857688903809 },
+            { "lat": -25.44277082185161, "lng": -49.2423963546753 },
+            { "lat": -25.44387528278514, "lng": -49.24286842346192 },
+            { "lat": -25.443933412027373, "lng": -49.238812923431404 },
+            { "lat": -25.443449000818084, "lng": -49.23495054244995 },
+            { "lat": -25.442092639066164, "lng": -49.235057830810554 },
+            { "lat": -25.441743857860892, "lng": -49.236323833465576 },
+            { "lat": -25.43947675540709, "lng": -49.237997531890876 }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Maracanã",
+        "description": "Estádio Jornalista Mário Filho, mais conhecido como Maracanã, ou carinhosamente como Maraca, é um estádio de futebol localizado na Zona Norte da cidade brasileira do Rio de Janeiro.",
+        "coordinates": [
+            { "lat": -22.912171524591997, "lng": -43.23379755020142 },
+            { "lat": -22.914938557177287, "lng": -43.22909832000733 },
+            { "lat": -22.91191458298594, "lng": -43.22644829750062 },
+            { "lat": -22.911282109265453, "lng": -43.22618007659912 },
+            { "lat": -22.91089669414506, "lng": -43.22657704353333 },
+            { "lat": -22.910402570592947, "lng": -43.231984376907356 },
+            { "lat": -22.91077810465681, "lng": -43.233282566070564 },
+            { "lat": -22.911479757620093, "lng": -43.23367953300476 }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Plano Piloto de Brasília",
+        "description": "O Plano Piloto de Brasília, no Distrito Federal, era originalmente a parte planejada através de um concurso nacional realizado em 1957 para definir o desenho urbano da nova capital brasileira.",
+        "coordinates": [
+            { "lat": -15.824956961348262, "lng": -47.93249130249024 },
+            { "lat": -15.839655247683499, "lng": -47.921161651611335 },
+            { "lat": -15.818846123229765, "lng": -47.89180755615235 },
+            { "lat": -15.80315528786566, "lng": -47.87601470947266 },
+            { "lat": -15.8018338988214, "lng": -47.862281799316406 },
+            { "lat": -15.797043791242627, "lng": -47.86108016967774 },
+            { "lat": -15.792583934060001, "lng": -47.87309646606445 },
+            { "lat": -15.769787575567598, "lng": -47.87412643432617 },
+            { "lat": -15.734596864662231, "lng": -47.88597106933594 },
+            { "lat": -15.737405736763273, "lng": -47.9000473022461 },
+            { "lat": -15.770117975876632, "lng": -47.89352416992188 },
+            { "lat": -15.786472118455082, "lng": -47.89266586303712 },
+            { "lat": -15.783003168138066, "lng": -47.907943725585945 },
+            { "lat": -15.774743523701623, "lng": -47.90948867797852 },
+            { "lat": -15.769787575567598, "lng": -47.90914535522462 },
+            { "lat": -15.762683838798052, "lng": -47.915153503417976 },
+            { "lat": -15.757066754642334, "lng": -47.92613983154297 },
+            { "lat": -15.775239111855264, "lng": -47.93815612792969 },
+            { "lat": -15.805963210945468, "lng": -47.947425842285156 },
+            { "lat": -15.810257606188157, "lng": -47.94673919677735 },
+            { "lat": -15.810587940508977, "lng": -47.9388427734375 },
+            { "lat": -15.79869556527687, "lng": -47.912921905517585 },
+            { "lat": -15.7872980502555, "lng": -47.91000366210938 },
+            { "lat": -15.79324465983888, "lng": -47.896270751953125 },
+            { "lat": -15.808440757784034, "lng": -47.910690307617195 }
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "title": "Ponta do Seixas",
+        "description": "A ponta do Seixas é o ponto mais oriental do continente americano e consequentemente da parte continental do Brasil. Localiza-se a leste da cidade de João Pessoa, capital do estado da Paraíba, a quatorze quilômetros do centro da cidade e a três quilômetros ao sul do bairro de Cabo Branco.",
+        "coordinates": { "lat": -7.15509103274412, "lng": -34.793239831924446 }
+    },
+    {
+        "id": 1,
+        "title": "Cristo Redentor",
+        "description": "Cristo Redentor é uma estátua art déco que retrata Jesus Cristo, localizada no topo do morro do Corcovado, a 709 metros acima do nível do mar, com vista para parte considerável da cidade brasileira do Rio de Janeiro.",
+        "coordinates": { "lat": -22.951932306125975, "lng": -43.21047306060791 }
+    },
+    {
+        "id": 2,
+        "title": "Museu do Cangaço",
+        "description": "A cidade de Serra Talhada, conhecida como a terra do xaxado, está localizada no sertão pernambucano e costuma ser lembrada por ser a terra natal de Virgulino Ferreira da Silva, mais conhecido como Lampião. O 'Rei do Cangaço' se tornou o principal nome quando se fala em “banditismo social” por comandar um grupo com cerca de 200 pessoas e ter sido procurado em 7 dos 9 estados do Nordeste.",
+        "coordinates": { "lat": -7.839223763407207, "lng": -38.099132180213935 }
+    }
+]
