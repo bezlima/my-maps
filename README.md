@@ -33,7 +33,7 @@ Clone o projeto
 Entre na pasta
 
 ```bash
-  cd my_map
+  cd my-maps
 ```
 
 Atualize as dependências
