@@ -10,9 +10,11 @@ export default function Home() {
     })
 
     return (
-        <div className="flex items-center container">
+        <div className="flex items-center container w-full max-w-full">
             <Menu />
-            <Map />
+            <div className="flex-grow">
+                <Map />
+            </div>
             <Register />
         </div>
     )

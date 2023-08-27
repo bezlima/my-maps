@@ -16,7 +16,7 @@ export default function Map({ children }: IMap) {
                 w-full
             `}
         >
-            <MapContainer className={`h-full w-full flex-1 z-10 `} center={center} zoom={5} zoomControl={false}>
+            <MapContainer className={`flex-1 z-10 h-full w-full`} center={center} zoom={5} zoomControl={false}>
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 {children}
             </MapContainer>
