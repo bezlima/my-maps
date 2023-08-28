@@ -55,8 +55,6 @@ Rodando o projeto
 
 -   Adicionar: desenhar formas básicas como quadrado e círculos.
 
--   Adicionar: salvar localmente de maneira a manter o estado da aplicação durante refresh. Será uma feature com prioridade a ser adicionada. Terei localStore ou redux como base para realiza-lo.
-
 -   Adicionar: sing in e login. além de manter pontos e polígonos salvos por usuário, ou um mapa publico para usuário marcarem e compartilharem localidades de seu interesse. Terei como base o firebase para tal aplicação.
 
 ## Autor : Lucas Lima

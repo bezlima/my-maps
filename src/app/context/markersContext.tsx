@@ -1,5 +1,5 @@
 'use client'
-import React, { ReactNode, createContext, useContext, useState } from 'react'
+import React, { ReactNode, createContext, useContext, useEffect, useState } from 'react'
 
 interface ICoordinates {
     lat: number
@@ -30,6 +30,17 @@ const MarkersContext = createContext<IMarkersContext>({
 export function MarkersProvider({ children }: { children: ReactNode }) {
     const [markers, setMarkers] = useState<IMarker[]>([])
     const [markerPosition, setMarkerPosition] = useState<ICoordinates>({ lat: 0, lng: 0 })
+
+    useEffect(() => {
+        const storedMarkers = localStorage.getItem('markers')
+        if (storedMarkers) {
+            setMarkers(JSON.parse(storedMarkers))
+        }
+    }, [])
+
+    useEffect(() => {
+        localStorage.setItem('markers', JSON.stringify(markers))
+    }, [markers])
 
     return (
         <MarkersContext.Provider

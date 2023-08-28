@@ -1,5 +1,5 @@
 'use client'
-import React, { ReactNode, createContext, useContext, useState } from 'react'
+import React, { ReactNode, createContext, useContext, useEffect, useState } from 'react'
 
 interface ICoordinates {
     lat: number
@@ -30,6 +30,17 @@ const PolygonsContext = createContext<IPolygonsContext>({
 export function PolygonsProvider({ children }: { children: ReactNode }) {
     const [polygons, setPolygons] = useState<IPolygons[]>([])
     const [polygonsPosition, setPolygonsPosition] = useState<ICoordinates[]>([])
+
+    useEffect(() => {
+        const storedPolygons = localStorage.getItem('polygons')
+        if (storedPolygons) {
+            setPolygons(JSON.parse(storedPolygons))
+        }
+    }, [])
+
+    useEffect(() => {
+        localStorage.setItem('polygons', JSON.stringify(polygons))
+    }, [polygons])
 
     return (
         <PolygonsContext.Provider
