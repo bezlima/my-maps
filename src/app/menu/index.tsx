@@ -13,7 +13,7 @@ export default function Menu() {
         <div className="flex">
             <div
                 className={` 
-                    ${isOpenMenu ? 'w-80' : 'w-20'} 
+                    ${isOpenMenu ? 'w-full sm:w-80' : 'w-20'} 
                     bg-neutral-200 
                     h-screen 
                     p-5 
@@ -22,6 +22,8 @@ export default function Menu() {
                     duration-300
                     flex flex-col
                     justify-between
+                    overflow-auto
+                    overflow-x-hidden
                 `}
             >
                 <section>
@@ -64,7 +66,11 @@ export default function Menu() {
                     </menu>
                 </section>
 
-                <div className={`border-t-2 border-teal-800 gap-2 pt-4 ${isOpenMenu ? 'w-full' : 'w-0'} duration-400 `}>
+                <div
+                    className={`border-t-2 border-teal-800 gap-2 pt-4 mt-4 ${
+                        isOpenMenu ? 'w-full' : 'w-0'
+                    } duration-400 `}
+                >
                     <p
                         className={`font-bold text-sm text-teal-800 whitespace-pre duration-500 ${
                             !isOpenMenu && 'opacity-0 translate-x-28 overflow-hidden'
